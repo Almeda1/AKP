@@ -8,8 +8,11 @@ import img3 from '../../assets/memories/aloy3.jpeg';
 import img4 from '../../assets/memories/aloy4.jpeg';
 import img5 from '../../assets/memories/aloy5.jpeg';
 import img6 from '../../assets/memories/aloy6.jpeg';
+import img7 from '../../assets/memories/aloy7.jpeg';
+import img8 from '../../assets/memories/aloy8.jpeg';
+import img9 from '../../assets/memories/aloy9.jpeg';
 
-const PHOTO_URLS = [img1, img2, img3, img4, img5, img6];
+const PHOTO_URLS = [img1, img2, img3, img4, img5, img6, img7, img8, img9];
 
 interface Card {
   id: number;
@@ -122,7 +125,12 @@ export function MemoryGame() {
   `;
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-4 bg-[#172554] relative overflow-hidden">
+    <div 
+      className="min-h-screen flex flex-col items-center justify-center p-4 relative overflow-hidden"
+      style={{
+        background: `linear-gradient(rgba(157, 23, 77, 0.8), rgba(157, 23, 77, 0.9)), url('https://images.unsplash.com/photo-1542038784456-1ea0e93ca91b?q=80&w=1920') center/cover no-repeat fixed`
+      }}
+    >
       <style>{animationStyles}</style>
 
       {/* Background decorations */}

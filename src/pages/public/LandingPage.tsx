@@ -29,7 +29,7 @@ export function LandingPage() {
       className="min-h-screen flex flex-col items-center justify-center p-6 relative overflow-hidden"
       // Optimized Background: Using gradients instead of blur filters for speed
       style={{
-        background: `linear-gradient(rgba(23, 37, 84, 0.8), rgba(23, 37, 84, 0.9)), url('https://images.unsplash.com/photo-1542038784456-1ea0e93ca91b?q=80&w=1920') center/cover no-repeat fixed`
+        background: `linear-gradient(rgba(157, 23, 77, 0.8), rgba(157, 23, 77, 0.9)), url('https://images.unsplash.com/photo-1542038784456-1ea0e93ca91b?q=80&w=1920') center/cover no-repeat fixed`
       }}
     >
       <style>{animationStyles}</style>

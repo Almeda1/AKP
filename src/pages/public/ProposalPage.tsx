@@ -8,8 +8,11 @@ import img3 from '../../assets/memories/aloy3.jpeg';
 import img4 from '../../assets/memories/aloy4.jpeg';
 import img5 from '../../assets/memories/aloy5.jpeg';
 import img6 from '../../assets/memories/aloy6.jpeg';
+import img7 from '../../assets/memories/aloy7.jpeg';
+import img8 from '../../assets/memories/aloy8.jpeg';
+import img9 from '../../assets/memories/aloy9.jpeg';
 
-const BACKGROUND_IMAGES = [img1, img2, img3, img4, img5, img6];
+const BACKGROUND_IMAGES = [img1, img2, img3, img4, img5, img6, img7, img8, img9];
 
 // --- CONFIGURATION ---
 const WHATSAPP_NUMBER = "2349059134080"; 

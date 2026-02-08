@@ -20,7 +20,7 @@ export function MemoryCard({ image, isFlipped, isMatched, onClick }: MemoryCardP
         }`}
       >
         {/* Card Back (Face down) */}
-        <div className="absolute inset-0 w-full h-full [backface-visibility:hidden] bg-gradient-to-br from-rose-400 to-pink-600 rounded-xl border-2 border-white/30 flex items-center justify-center shadow-lg hover:shadow-pink-500/50 transition-shadow">
+        <div className="absolute inset-0 w-full h-full [backface-visibility:hidden] bg-gradient-to-br from-blue-400 to-cyan-600 rounded-xl border-2 border-white/30 flex items-center justify-center shadow-lg hover:shadow-blue-500/50 transition-shadow">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
