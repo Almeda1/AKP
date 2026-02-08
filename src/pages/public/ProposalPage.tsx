@@ -203,10 +203,9 @@ export function ProposalPage() {
             </div>
 
             {/* BUTTON CONTAINER 
-              - We use `relative` so the falling button can position absolute relative to this.
-              - We use `justify-center` so that when there is only one button, it naturally centers.
+              - Changed gap-4 to gap-8 (32px) for wider spacing on mobile
             */}
-            <div className="relative flex flex-col md:flex-row justify-center items-center gap-4 md:gap-6 min-h-[80px]">
+            <div className="relative flex flex-col md:flex-row justify-center items-center gap-8 md:gap-6 min-h-[80px]">
               
               <button
                 onClick={handleSuccess}
@@ -215,12 +214,6 @@ export function ProposalPage() {
                   transition-all duration-700 ease-in-out
                   ${isFalling ? 'md:translate-x-0 scale-110' : ''} 
                 `}
-                /* LOGIC:
-                   When falling: The Flexbox `gap` might still exist if we don't hide the other button properly.
-                   However, by making the falling button `position: absolute`, it is removed from the flow.
-                   Flexbox will then immediately re-center the remaining "Yes" button.
-                   The `transition-all` class makes that re-centering smooth.
-                */
               >
                 <HeartIcon className="w-6 h-6" fill="currentColor" />
                 <span>YES, Absolutely!</span>
